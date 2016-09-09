@@ -2,7 +2,7 @@
   "name": "ng-remote-validate",
   "version": "0.6.1",
   "description": "ngRemoveValidate makes it easy for you to validate form fields agents data from your server (AngularJS Ajax Validation).",
-  "main": "release/ngRemoteValidate.js",
+  "main": "src/ngRemoteValidate.js",
   "keywords": [
     "angular",
     "angularjs",
@@ -18,7 +18,7 @@
     "**/.*",
     "app",
     "build",
-    "src",
+    "release",
     "tests",
 	".gitignore",
 	"bower.json",
