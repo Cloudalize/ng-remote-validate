@@ -1,0 +1,21 @@
+{
+  "name": "ng-remote-validate",
+  "version": "0.6.3",
+  "description":
+    "ngRemoveValidate makes it easy for you to validate form fields agents data from your server. For example, a sign up form may need to check if the email entered is already registered before submitting the form.",
+  "main": "swangular.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdaas/ng-remote-validate.git"
+  },
+  "keywords": ["sweetalert", "angular", "modal", "sweet", "alert"],
+  "author": "\"angular\",",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gdaas/ng-remote-validate/issues"
+  },
+  "homepage": "https://github.com/gdaas/ng-remote-validate#readme"
+}
