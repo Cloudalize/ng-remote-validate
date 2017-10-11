@@ -1,8 +1,10 @@
-( function( angular ) {
+( function( window ) {
     'use strict';
-    if( !angular ) {
+    if( !window.angular ) {
         throw 'Missing something? Please add angular.js to your project or move this script below the angular.js reference';
     }
+    
+    var angular = window.angular;
 
     var directiveId = 'ngRemoteValidate',
         remoteValidate = function( $http, $timeout, $q ) {
@@ -179,4 +181,4 @@
            .constant('MODULE_VERSION', '##_version_##')
            .directive( directiveId, [ '$http', '$timeout', '$q', remoteValidate ] );
 
-})( this.angular );
+})( window );
